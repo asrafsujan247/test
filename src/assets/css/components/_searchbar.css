@@ -1,0 +1,24 @@
+.searchbar-nav {
+    @apply bg-white p-5 inline-flex items-center gap-5 list-none rounded-[10px] rounded-bl-none rounded-br-none;
+}
+
+.searchbar-nav li a {
+    @apply text-sm font-bold hover:text-brand-clr
+}
+
+.searchbar-nav li a.active {
+    @apply text-brand-clr
+}
+
+.city-search-form {
+    @apply grid grid-cols-12 gap-6 p-4 bg-white rounded-[10px] rounded-tl-none
+}
+
+/* Range Slider */
+.range-slider {
+    @apply h-[3px] w-full bg-body-clr bg-opacity-50
+}
+
+.range-slider .thumb {
+    @apply w-[18px] h-[18px] bg-black rounded-full cursor-pointer border border-transparent -mt-2
+}

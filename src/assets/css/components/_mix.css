@@ -1,0 +1,4 @@
+/* Cta */
+.cta-wrapper {
+    @apply bg-white py-7 px-7 sm:px-20 flex items-center justify-center lg:justify-between flex-col lg:flex-row rounded-lg relative z-10 after:content-[''] after:absolute after:bg-[url('/img/cta-bg.png')] after:bg-no-repeat after:bg-cover after:bg-center after:inset-0 after:-z-10
+}

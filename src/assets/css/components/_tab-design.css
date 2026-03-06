@@ -1,0 +1,16 @@
+.tab-design-1 li {
+    @apply outline-none cursor-pointer
+}
+
+.tab-design-1 li.react-tabs__tab--selected {
+    @apply rounded-md !text-black bg-white
+}
+
+.tab-design-1 li.react-tabs__tab--selected div {
+    @apply bg-brand
+}
+
+/* Design 2 */
+.tab-design-2 li.react-tabs__tab--selected {
+    @apply bg-brand border-brand text-white
+}

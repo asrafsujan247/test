@@ -1,0 +1,26 @@
+.city-best-property {
+    @apply  bg-body-clr-3 relative z-10 after:content-[''] after:absolute after:bg-[url('/img/best-property-bg-overlay.png')] after:bg-no-repeat after:bg-cover after:bg-center after:inset-0 after:-z-10
+}
+
+.city-best-property .swiper {
+    padding-bottom: 60px;
+}
+
+.city-best-property .swiper-pagination {
+    position: absolute;
+}
+
+.best-property-overlay {
+    @apply  h-full w-full flex flex-col justify-between absolute inset-0 p-6 bg-gd-dark-overlay
+}
+
+/* Ready Propertis */
+.ready-properties {
+    @apply  bg-body-clr-3 pt-20 md:pt-32 pb-60 md:pb-72 relative z-10 after:content-[''] after:absolute after:bg-[url('/img/ready-bg.png')] after:bg-no-repeat after:bg-cover after:bg-center after:inset-0 after:-z-10
+}
+
+/* Popular Properties */
+.popular-properties {
+    @apply  relative z-10 after:content-[''] after:absolute after:bg-[url('/img/popular-properties-bg-shape.png')] after:bg-no-repeat after:bg-cover after:bg-center after:inset-0 after:-z-10
+}
+/* Popular Properties */

@@ -1,0 +1,7 @@
+.swiper-pagination-bullet {
+    @apply opacity-100 bg-gray-4
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    @apply bg-brand
+}

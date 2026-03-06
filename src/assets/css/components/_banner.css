@@ -1,0 +1,11 @@
+.banner-three {
+    @apply bg-[url('/img/banner-3-bg.png')] bg-no-repeat bg-cover bg-center bg-bottom relative z-10
+}
+
+.banner-three::before {
+    @apply content-[""] absolute inset-0 bg-gd-dark-2 opacity-80 -z-10
+}
+
+.banner-three::after {
+    @apply content-[""] absolute inset-0 bg-[url('/img/banner-3-bg-shape.png')] bg-no-repeat bg-right bg-contain -z-10
+}

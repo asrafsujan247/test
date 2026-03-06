@@ -1,0 +1,16 @@
+.city-feedback-area {
+    @apply relative z-10
+}
+
+.city-feedback-area::after {
+    @apply content-[""] absolute inset-0 bg-[url('/img/feedback_overlay.png')] bg-no-repeat bg-contain bg-bottom -z-10
+}
+
+.feedback-item {
+    @apply  bg-white p-6 sm:p-8 rounded-xl text-center relative mt-14
+}
+
+/* Testimonial */
+.testimonial-area {
+    @apply after:content-[''] after:absolute after:bg-[url('/img/testimonial-bg-overlay.png')] after:bg-no-repeat after:bg-contain after:bg-center after:bg-top after:inset-0 after:-z-10
+}

@@ -1,0 +1,7 @@
+.dream-place {
+    @apply bg-[url('/img/dream-place-bg.png')] bg-no-repeat bg-cover bg-center bg-bottom relative z-10
+}
+
+.dream-place::after {
+    @apply content-[""] absolute inset-0 bg-gd-dark-2 opacity-95 -z-10
+}

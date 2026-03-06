@@ -1,0 +1,8 @@
+.card-item {
+    @apply bg-white p-10 pb-16 rounded-xl relative z-10 transition duration-1000
+}
+
+/* City Card */
+.city-card {
+    @apply bg-white rounded-xl
+}

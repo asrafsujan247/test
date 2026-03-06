@@ -1,0 +1,3 @@
+.agent-area {
+    @apply  relative z-10 after:content-[''] after:absolute after:bg-[url('/img/agent-bg-overlay.png')] after:bg-no-repeat after:bg-cover after:bg-center after:inset-0 after:-z-10
+}

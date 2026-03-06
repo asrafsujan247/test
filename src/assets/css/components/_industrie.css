@@ -1,0 +1,9 @@
+.city-industrie-item {
+    @apply  px-7 py-10 border border-dashed border-border-clr rounded-lg relative z-10 transition-all duration-300 hover:border-white hover:bg-white
+}
+
+/* Industries Type Slider */
+.industries-type-slider-area .swiper-pagination {
+    @apply absolute left-2/4 -translate-x-1/2 xl:left-20 w-auto
+}
+/* Industries Type Slider */

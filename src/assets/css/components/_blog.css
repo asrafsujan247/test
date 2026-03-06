@@ -1,0 +1,7 @@
+.blog-post-area {
+    @apply relative z-20
+}
+
+.blog-post-area::after {
+    @apply content-[""] absolute inset-0 bg-[url('/img/blog_overlay.png')] bg-no-repeat bg-contain bg-bottom -z-10
+}
